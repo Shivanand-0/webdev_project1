@@ -1,0 +1,16 @@
+# Normalize all text files and enforce LF line endings for consistency
+* text=auto
+
+# Specific file types to always use LF endings
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.json   text eol=lf
+*.env    text eol=lf
+*.md     text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf

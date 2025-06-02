@@ -1,6 +1,7 @@
 //requiring
 const mongoose=require("mongoose")
 const Schema=mongoose.Schema;
+const Review=require("./review")
 //connection
 let listingSchema= new Schema(
     {
